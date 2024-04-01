@@ -9,5 +9,8 @@ class User {
   }
   
   const user = new User('田中');
-  document.getElementById('userNameButton').addEventListener('click', user.printName);
+user.printName();
+
+document.getElementById('userNameButton').addEventListener('click', user.printName);
+// callback();
   
